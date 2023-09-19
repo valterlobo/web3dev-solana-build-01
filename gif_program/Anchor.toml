@@ -1,0 +1,19 @@
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+gif_program = "Ea4xmFbYKjZHCaZfmqzgJZB7F9ZPfL73jiyhNk6L7tYq"
+
+[programs.devnet]
+gif_program = "Ea4xmFbYKjZHCaZfmqzgJZB7F9ZPfL73jiyhNk6L7tYq"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/valter/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
